@@ -1,0 +1,17 @@
+//parallax template from material
+@import "parallax-template";
+
+//components
+
+#logo-container img{
+  height: 50px;
+  margin-top: 7px;
+}
+.banner-tile{
+  height: 239px;
+  padding:0 !important;
+}
+.flip-card{
+  height: 100%;
+  width:100%;
+}

@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+dist/
+wcm/tinymce-custom-plugins/**/**/node_modules
+wcm/tinymce-custom-plugins/**/**/dist
