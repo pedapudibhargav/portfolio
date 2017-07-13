@@ -54,3 +54,11 @@ footer.page-footer {
 .flip-card {
   height: 100%;
   width: 100%; }
+
+#main-banner {
+  background-image: url("/img/bannerbg.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }

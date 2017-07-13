@@ -9,6 +9,6 @@
 
 $(".flip-card").flip({
   axis: 'x',
-  trigger: 'hover',
+  trigger: 'click',
   reverse: true
 });
