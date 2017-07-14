@@ -12,3 +12,15 @@ $(".flip-card").flip({
   trigger: 'click',
   reverse: true
 });
+
+$( document ).ready(function() {
+    console.log( "ready!" );
+    $( ".flip-card" ).each(function( index ) {
+      setTimeout(function(){
+        $(this).flip({
+          axis: 'x'
+        });
+      }, (index+1)*1000);
+    });
+
+});
