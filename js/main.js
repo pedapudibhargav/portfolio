@@ -16,11 +16,11 @@ $(".flip-card").flip({
 $( document ).ready(function() {
     console.log( "ready!" );
     $( ".flip-card" ).each(function( index ) {
+      var curtTile = $(this);
       setTimeout(function(){
-        $(this).flip({
-          axis: 'x'
-        });
-      }, (index+1)*1000);
+        console.log("set time out triggered");
+        $(curtTile).click();
+      }, (index + 1)*200);
     });
 
 });
