@@ -29,7 +29,7 @@ $( document ).ready(function() {
     var ct = 0;
     var randomTiles = function(){
       setTimeout(function(){
-        $( ".flip-card:eq( "+Math.random() * (7 -0) + 0; +")" ).click();
+        $( ".flip-card:eq( "+Math.random() * (7 - 0) + 0 +")" ).click();
           if(ct < 3)
             {
               randomTiles();
