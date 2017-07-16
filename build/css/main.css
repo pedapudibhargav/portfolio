@@ -78,7 +78,8 @@ footer.page-footer {
 
 @media screen and (max-width: 600px) {
   #main-banner {
-    background-position: left center; } }
+    background-position: left center;
+    background-image: url("../../img/bannerbg-mbl.jpg"); } }
 
 .tile-title-01 {
   font-size: 10em;
