@@ -69,11 +69,16 @@ footer.page-footer {
   border: 0.25px solid #dddddd; }
 
 #main-banner {
+  background-image: url("../img/bannerbg.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: auto 100%; }
+
+@media screen and (max-width: 600px) {
+  #main-banner {
+    background-position: left center; } }
 
 .tile-title-01 {
   font-size: 10em;
