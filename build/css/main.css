@@ -68,18 +68,11 @@ footer.page-footer {
   width: 100%;
   border: 0.25px solid #dddddd; }
 
-#main-banner {
-  background-image: url("../../img/bannerbg.jpg");
-  background-color: black;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: auto 100%; }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) and (min-device-width: 481px) {
   #main-banner {
-    background-position: left center;
-    background-image: url("../../img/bannerbg-mbl.jpg"); } }
+    height: 478px; }
+    #main-banner > .section {
+      top: 0; } }
 
 .tile-title-01 {
   font-size: 10em;
