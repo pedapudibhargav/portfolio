@@ -180,13 +180,9 @@ div:focus {
 .tooltipped {
   cursor: pointer; }
 
-@media screen and (max-width: 992px) and (min-device-width: 481px) {
-  #main-banner.parallax-container .section {
-    top: 0%; }
-  #main-banner {
-    height: 478px; } }
-
-@media screen and (max-device-width: 481px) {
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    top: 0% !important; }
   #main-banner {
     height: 478px; } }
 
