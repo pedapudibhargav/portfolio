@@ -55,6 +55,109 @@ footer.page-footer {
 .white-font {
   color: rgba(255, 255, 255, 0.9); }
 
+.skills .tooltipped {
+  margin: 10px auto; }
+
+.bitbucketIco {
+  background: url("../img/spritesheet.png") no-repeat -404px -302px;
+  width: 100px;
+  height: 100px; }
+
+.githubIco {
+  background: url("../img/spritesheet.png") no-repeat -303px -303px;
+  width: 100px;
+  height: 100px; }
+
+.gitlabIco {
+  background: url("../img/spritesheet.png") no-repeat -101px -101px;
+  width: 100px;
+  height: 100px; }
+
+.gulpIco {
+  background: url("../img/spritesheet.png") no-repeat -404px -203px;
+  width: 100px;
+  height: 98px; }
+
+.html5Ico {
+  background: url("../img/spritesheet.png") no-repeat -202px -202px;
+  width: 100px;
+  height: 100px; }
+
+.ionicIco {
+  background: url("../img/spritesheet.png") no-repeat -303px -101px;
+  width: 100px;
+  height: 100px; }
+
+.jqueryIco {
+  background: url("../img/spritesheet.png") no-repeat 0px -202px;
+  width: 100px;
+  height: 100px; }
+
+.jsIco {
+  background: url("../img/spritesheet.png") no-repeat -101px -303px;
+  width: 100px;
+  height: 100px; }
+
+.lightroomIco {
+  background: url("../img/spritesheet.png") no-repeat -303px 0px;
+  width: 100px;
+  height: 100px; }
+
+.materializeIco {
+  background: url("../img/spritesheet.png") no-repeat 0px -303px;
+  width: 100px;
+  height: 100px; }
+
+.mongodbIco {
+  background: url("../img/spritesheet.png") no-repeat -202px -101px;
+  width: 100px;
+  height: 100px; }
+
+.npmIco {
+  background: url("../img/spritesheet.png") no-repeat -101px 0px;
+  width: 100px;
+  height: 100px; }
+
+.reactIco {
+  background: url("../img/spritesheet.png") no-repeat 0px -101px;
+  width: 100px;
+  height: 100px; }
+
+.sassIco {
+  background: url("../img/spritesheet.png") no-repeat -101px -202px;
+  width: 100px;
+  height: 100px; }
+
+.padIco {
+  background: url("../img/spritesheet.png") no-repeat -404px -102px;
+  width: 100px;
+  height: 100px; }
+
+.angularIco {
+  background: url("../img/spritesheet.png") no-repeat -303px -202px;
+  width: 100px;
+  height: 100px; }
+
+.jiraico {
+  background: url("../img/spritesheet.png") no-repeat -404px 0px;
+  width: 100px;
+  height: 101px; }
+
+.cssIco {
+  background: url("../img/spritesheet.png") no-repeat -202px -303px;
+  width: 100px;
+  height: 100px; }
+
+.nodeJsIco {
+  background: url("../img/spritesheet.png") no-repeat -202px 0px;
+  width: 100px;
+  height: 100px; }
+
+.MySQLIco {
+  background: url("../img/spritesheet.png") no-repeat 0px 0px;
+  width: 100px;
+  height: 100px; }
+
 #logo-container img {
   height: 50px;
   margin: 6px 20px; }
