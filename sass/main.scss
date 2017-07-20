@@ -30,14 +30,18 @@ outline: none;
   cursor: pointer;
 }
 @media screen and (max-width: 992px) and (min-device-width: 481px) {
+  #main-banner.parallax-container .section{
+    top:0%;
+  }
   #main-banner{
-    height: 478px;
-    > .section {
-      top:0
-    }
+  height: 478px;
   }
 }
-
+@media screen and (max-device-width: 481px) {
+  #main-banner{
+  height: 478px;
+  }
+}
 
 .tile-title-01{
   font-size: 10em;
