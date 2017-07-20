@@ -32,3 +32,11 @@
   margin: 0;
   line-height: initial;
 }
+.psd-catlg{
+  img{
+    max-width:200%;
+  }
+  img.active{
+    max-width: inherit;
+  }
+}

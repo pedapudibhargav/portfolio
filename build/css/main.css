@@ -78,3 +78,9 @@ footer.page-footer {
   font-size: 10em;
   margin: 0;
   line-height: initial; }
+
+.psd-catlg img {
+  max-width: 200%; }
+
+.psd-catlg img.active {
+  max-width: inherit; }
