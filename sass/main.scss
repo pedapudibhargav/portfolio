@@ -7,6 +7,12 @@
 //icons
 @import "icons";
 
+nav .right a:hover{
+  color: #F07A7A;
+}
+div:focus{
+outline: none;
+}
 #logo-container img{
   height: 50px;
   margin: 6px 20px;
@@ -19,6 +25,9 @@
   height: 100%;
   width:100%;
   border:0.25px solid #dddddd;
+}
+.tooltipped{
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) and (min-device-width: 481px) {
   #main-banner{
