@@ -1,5 +1,4 @@
-$sprite-url:  '../../img/spritesheet.png';
-
+$sprite-url:  'img/spritesheet.png';
 .skills .tooltipped{
   margin:10px auto;
 }
@@ -7,6 +6,7 @@ $sprite-url:  '../../img/spritesheet.png';
    background: url($sprite-url) no-repeat -404px -302px;
    width: 100px;
    height: 100px;
+   height:101px;
 }
 .githubIco {
    background: url($sprite-url) no-repeat -303px -303px;
