@@ -5,6 +5,7 @@
     $('.parallax').parallax();
     $('.carousel').carousel();
     $('.tooltipped').tooltip({delay: 50});
+    $('.modal').modal();
 
     // Select all links with hashes
       $('a[href*="#"]')
@@ -14,7 +15,7 @@
         .click(function(event) {
           // On-page links
           if (
-            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
             &&
             location.hostname == this.hostname
           ) {
@@ -42,7 +43,11 @@
             }
           }
         });
-  }); // end of document ready
+     $('.proj-preview').click(function(event){
+       console.log("Updating preview video"+$(this).attr("data-url"));
+       $("#proj-mdl-iframe").attr('src',$(this).attr("data-url"));
+     })
+  });
 })(jQuery); // end of jQuery name space
 
 $(".flip-card").flip({
